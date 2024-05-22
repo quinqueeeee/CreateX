@@ -1,0 +1,107 @@
+import './browse.scss'
+// import img1 from "./img/1.png"
+// import img2 from "./img/2.png"
+// import img3 from "./img/3.png"
+
+export default function Browse () {
+	return (
+		<>
+			<section class="browse">
+            <div class="browse__container _container">
+                <h2 class="header-title browse-title">Browse our selected projects
+                    and learn more about our work</h2>
+
+
+
+
+                <div id='mySlider1' class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="browse-cards splide__list">
+                            {/* <li class="browse-card splide__slide">
+                                <img src={img1} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Red Finger Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img2} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Cubes Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img3} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">The Pencil Building</h2>
+                                <p class="browse-card__text">Stores & Malls</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img1} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Red Finger Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img2} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Cubes Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img3} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">The Pencil Building</h2>
+                                <p class="browse-card__text">Stores & Malls</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img1} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Red Finger Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img2} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Cubes Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img3} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">The Pencil Building</h2>
+                                <p class="browse-card__text">Stores & Malls</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img1} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Red Finger Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img2} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">Cubes Building</h2>
+                                <p class="browse-card__text">Business Centers</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li>
+                            <li class="browse-card splide__slide">
+                                <img src={img3} alt="img" class="browse-card__img"/>
+                                <h2 class="browse-card__title">The Pencil Building</h2>
+                                <p class="browse-card__text">Stores & Malls</p>
+                                <button class="browse-card__btn _butn">View Project</button>
+                            </li> */}
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="bottom-block browse-bottom-block">
+                    <h2 class="bottom-block__title">Explore all our works</h2>
+                    <button class="bottom-block__btn _butn">View portfolio</button>
+                </div>
+            </div>
+        </section>
+
+		</>
+	)
+}
